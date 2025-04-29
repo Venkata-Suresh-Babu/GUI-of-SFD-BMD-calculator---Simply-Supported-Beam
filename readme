@@ -1,0 +1,35 @@
+# 🏗️ Simply Supported Beam - SFD & BMD Visualizer
+
+A Python-based desktop application that automates the generation of **Shear Force Diagrams (SFD)** and **Bending Moment Diagrams (BMD)** for a simply supported beam under a point load.  
+Built using **CustomTkinter** for the user interface and **Matplotlib** for data visualization.
+
+---
+
+## 🔧 Features
+
+- **📊 Real-Time Diagram Generation**  
+  Enter beam parameters (length, point load, and load position) and instantly view the SFD & BMD diagrams.
+
+- **✨ Modern UI**  
+  Built with `CustomTkinter` for a sleek, responsive, and professional interface.
+
+- **🔍 Input Validation**  
+  Ensures that the load position and magnitudes are within acceptable bounds.
+
+- **📍 Data Point Highlighting**  
+  Clearly marks load locations and important shear/moment transitions on the graphs.
+
+- **🖼️ Export High-Resolution Images**  
+  Save diagrams in PNG images with all input parameters printed on the plots.
+
+- **📂 Save Button for User-Controlled Export**  
+  Allows users to choose the path and filename interactively via file dialog.
+
+---
+
+## 🛠 Tech Stack
+
+- **Python 3.11+**
+- Matplotlib
+- NumPy
+- Tkinter (for GUI management, dialogs, and event handling)
